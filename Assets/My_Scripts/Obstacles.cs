@@ -28,7 +28,7 @@ public class Obstacles : SpaceObjects
         Spining();
     }
 
-    void Spining()
+    public void Spining()
     {
         transform.Rotate(Vector3.forward * Time.deltaTime * rotateSpeed);
     }
